@@ -155,7 +155,6 @@ class DataSetNietzsche:
     def get_processed_to_idxs(subset_size: int = None):
         """Much of this text processing has been moved into class 'TextData'
 
-        # Delete method?  P1t180401 p1m2
         :param subset_size:
         :return:
         """
@@ -182,7 +181,7 @@ class DataSetNietzsche:
 
 
 
-# Delete this region now?  P1t180401 p1m2
+# Delete this region now?
 # region Deletion Pending
 # class NietszcheData(TextData):
 #     def __init__(self, *, x_bigram_size: int, shorten_text_to_len: int = None) -> None:
